@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0F5B2826C32D8500002AE8 /* Simulator Screen Recording - iPhone 12 Pro - 2021-08-10 at 16.55.40.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8D0F5B2726C32D8500002AE8 /* Simulator Screen Recording - iPhone 12 Pro - 2021-08-10 at 16.55.40.gif */; };
 		8D176C9926B31E4B00228F25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D176C9826B31E4B00228F25 /* AppDelegate.swift */; };
 		8D176C9B26B31E4B00228F25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D176C9A26B31E4B00228F25 /* SceneDelegate.swift */; };
-		8D176C9D26B31E4B00228F25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D176C9C26B31E4B00228F25 /* ViewController.swift */; };
 		8D176CA026B31E4B00228F25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D176C9E26B31E4B00228F25 /* Main.storyboard */; };
 		8D176CA226B31E4F00228F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D176CA126B31E4F00228F25 /* Assets.xcassets */; };
 		8D176CA526B31E4F00228F25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D176CA326B31E4F00228F25 /* LaunchScreen.storyboard */; };
+		8D176CAD26B31F5700228F25 /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D176CAC26B31F5700228F25 /* RestaurantTableViewCell.swift */; };
+		8D176CAF26B31F7300228F25 /* RestaurantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D176CAE26B31F7300228F25 /* RestaurantTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D0F5B2726C32D8500002AE8 /* Simulator Screen Recording - iPhone 12 Pro - 2021-08-10 at 16.55.40.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Simulator Screen Recording - iPhone 12 Pro - 2021-08-10 at 16.55.40.gif"; sourceTree = "<group>"; };
 		8D176C9526B31E4B00228F25 /* FoodPin2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodPin2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D176C9826B31E4B00228F25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D176C9A26B31E4B00228F25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D176C9C26B31E4B00228F25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D176C9F26B31E4B00228F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D176CA126B31E4F00228F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D176CA426B31E4F00228F25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D176CA626B31E4F00228F25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D176CAC26B31F5700228F25 /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		8D176CAE26B31F7300228F25 /* RestaurantTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D0F5B2626C32D7600002AE8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8D0F5B2726C32D8500002AE8 /* Simulator Screen Recording - iPhone 12 Pro - 2021-08-10 at 16.55.40.gif */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		8D176C8C26B31E4B00228F25 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +68,33 @@
 		8D176C9726B31E4B00228F25 /* FoodPin2 */ = {
 			isa = PBXGroup;
 			children = (
+				8D0F5B2626C32D7600002AE8 /* Images */,
+				8D176CB126B31F8100228F25 /* controller */,
+				8D176CB026B31F7900228F25 /* view */,
 				8D176C9826B31E4B00228F25 /* AppDelegate.swift */,
 				8D176C9A26B31E4B00228F25 /* SceneDelegate.swift */,
-				8D176C9C26B31E4B00228F25 /* ViewController.swift */,
 				8D176C9E26B31E4B00228F25 /* Main.storyboard */,
 				8D176CA126B31E4F00228F25 /* Assets.xcassets */,
 				8D176CA326B31E4F00228F25 /* LaunchScreen.storyboard */,
 				8D176CA626B31E4F00228F25 /* Info.plist */,
 			);
 			path = FoodPin2;
+			sourceTree = "<group>";
+		};
+		8D176CB026B31F7900228F25 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				8D176CAC26B31F5700228F25 /* RestaurantTableViewCell.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		8D176CB126B31F8100228F25 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D176CAE26B31F7300228F25 /* RestaurantTableViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +157,7 @@
 				8D176CA526B31E4F00228F25 /* LaunchScreen.storyboard in Resources */,
 				8D176CA226B31E4F00228F25 /* Assets.xcassets in Resources */,
 				8D176CA026B31E4B00228F25 /* Main.storyboard in Resources */,
+				8D0F5B2826C32D8500002AE8 /* Simulator Screen Recording - iPhone 12 Pro - 2021-08-10 at 16.55.40.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +168,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D176C9D26B31E4B00228F25 /* ViewController.swift in Sources */,
 				8D176C9926B31E4B00228F25 /* AppDelegate.swift in Sources */,
+				8D176CAD26B31F5700228F25 /* RestaurantTableViewCell.swift in Sources */,
+				8D176CAF26B31F7300228F25 /* RestaurantTableViewController.swift in Sources */,
 				8D176C9B26B31E4B00228F25 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
